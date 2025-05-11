@@ -1,99 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAME HOUSE GAMING - lan center en espinar </title>
+    <meta name="description"
+        content="Las mejores promociones, unete a nuestra comunidad gamer en KAME HOUSE GAMING , tu lan center en Espinar. ¡Visítanos!">
     <link rel="stylesheet" href="style.css">
-    <title>pagina web kame</title>
+    <!-- Puedes añadir un icono para la pestaña del navegador (favicon) aquí -->
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
+
 <body>
-    <div class="head">
-        <div class="logo">
-            <a href="#">logo</a>
+
+    <header>
+        <div class="container">
+            <a href="#inicio" class="logo">KAME HOUSE GAMING </a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#promociones">Promociones</a></li>
+                    <li><a href="#comunidad">Comunidad</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-button" aria-label="Toggle Menu">☰</button>
         </div>
+    </header>
 
-        <nav class="navbar">
-            <a href="#">inicio</a>
-            <a href="#">nosotros</a>
-            <a href="#">contacto</a>
-            <a href="#">producto</a>
-            <a href="#">precio</a>
-
-        </nav>
-    
-
-    </div>
-
-    <head class=" contenet header">
-        <h2 class="tittle">inicio</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, earum magni? Perferendis odio totam repellendus debitis.
-            Illo nam architecto inventore aut deserunt quia. 
-            Magni nihil, iste explicabo autem officiis inventore?
-        </p>
-        <div class="btn-home">
-            <a href="#" class="btn">saber mas</a>
-            <a href="#" class="btn">saber mas</a>
-
-        </div>
-
-    </head>
-    <section class="content sau">
-        <h2 class="title">productos</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Quam, tempore incidunt officia impedit modi nostrum omnis provident ad 
-            aliquam atque, minus, 
-            unde architecto iusto ex ratione tempora iste sunt laborum!</p>
-
-            <div class="box-container">
-                <div class=" box">
-                    <i class="fab fa-amgular"></i>
-                    <h3>lorem</h3>
-                    <p>hitecto iusto ex ratione tempora</p>
-                </div>
-                <div class=" box">
-                    <i class="fab fa-apple"></i>
-                    <h3>lorem</h3>
-                    <p>hitecto iusto ex ratione tempora</p>
-                </div>
-                <div class=" box">
-                    <i class="fab fa-android"></i>
-                    <h3>lorem</h3>
-                    <p>hitecto iusto ex ratione tempora</p>
-                </div>
-
+    <main>
+        <!-- Sección Inicio (Hero) -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h1>BIENVENIDO A KAME HOUSE GAMING </h1>
+                <p> 
+UN ESPACIO DE ENTRETENIMIENTO PARA JUGAR Y DIVERTIRTE CON TUS AMIGOS .</p>
+                <a href="#promociones" class="button btn-primary">VER PROMOCIONES</a>
             </div>
-    </section>
-    <section class="contenet about">
-        <h2 class="tittle">nosotros</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Adipisci tempore eius autem architecto a beatae perferendi
-             s expedita earum voluptas
-             sunt. Neque fugiat laborum fuga molestiae asperiores harum ea ducimus autem.
-            </p>
-            <a href="#" class="btn">csaber mas</a>
+        </section>
 
-    </section>
-    <section class="contenet price">
-        <article class="containt">
-            <h2 class="tittle">precio</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci tempore eius autem architecto a beatae perferendi
-                s expedita earum voluptas
-                sunt. Neque fugiat laborum fuga molestiae asperiores harum ea ducimus autem.
-               </p>
-               <a href="#" class="btn">saber precio</a>
+        <!-- Sección Promociones -->
+        <section id="promociones" class="section-padding">
+            <div class="container">
+                <h2>Promociones Vigentes</h2>
+                <div class="grid-container">
 
-        </article>
+                     <article class="card">
+                        <img src="imagenes kame/promo-nuevos.png" alt="Promo Clientes Nuevos" class="card-img">
+                        <!-- Reemplaza con tu imagen -->
+                        <h3>Nuevos Usuarios</h3>
+                        <p>Crea tu cuenta en kame house gaming y ingresa a nuestro grupode whatssap y recibe 3 horas gratis </p>
+                        <p class="card-price">! 3 Horas Gratis !</p>
+                    </article>
 
-    </section>
-    <section class=" contenet  contact">
-        <h2 class="title">contacto </h2>
-        <p>9344754</p>
-        <figure class="map">
-            <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
-        </figure>
+                    <article class="card">
+                        <img src="imagenes kame/promo-recargas kame.jpg" alt="Promo Super Recargas" class="card-img">
+                        <!-- Reemplaza con tu imagen -->
+                        <h3>¡PROMO RECARGAS!</h3>
+                        <p>aprovecha las promociones desde S/5 para arriba .</p>
+                        <p class="card-condition">¡ disfruta con más tiempo para jugar !</p>
+                    </article>
 
-    </section>
+                   
+                    <article class="card">
+                        <img src="imagenes kame/promo-mañanas.png" alt="Promo " class="card-img">
+                        <!-- Reemplaza con tu imagen -->
+                        <h3>Promo kame</h3>
+                        <p>de lunes a viernes de 9:00 am a 2:00 pm a solo S/1.00 la hora </p>
+                        <p class="card-price">! disfruta con la promo kame !</p>
+                    </article>
+
+
+                </div>
+            </div>
+        </section>
+
+        
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Comunidad (WhatsApp) -->
+        <section id="comunidad" class="section-padding">
+            <div class="container text-center">
+                <h2>Únete a Nuestra Comunidad Gaming </h2>
+                <p>Conéctate con otros gamers, entérate de nuestras promociones .</p>
+                <div class="whatsapp-links">
+                    <a href="https://chat.whatsapp.com/BP67jKaodygISpNqAb3oN9" target="_blank" class="btn btn-whatsapp">
+                        <img src="imagenes kame/whatsa.png" alt="WhatsApp" width="40" height="40">KAME HOUSE WHATSSAP
+                    </a>
+
+
+
+                </div>
+                 <div class="facebook-links">
+                    <a href="https://www.facebook.com/profile.php?id=61558157535098" target="_blank" class="btn btn-facebook">
+                        <img src="imagenes kame/facebook.png" alt="facebook" width="40" height="40"> FACEBOOK KAME HOUSE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Ubicación -->
+        <section id="ubicacion" class="section-padding dark-section">
+            <div class="container">
+                <h2>Encuéntranos</h2>
+                <div class="location-content">
+                    <div class="map-container">
+                        <!-- Código de inserción de Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d573.4372966167903!2d-71.4063395493353!3d-14.790931192545349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9169113bd3bf1e9b%3A0x3e309a4b7cccf63!2sKame%20House%20Gaming!5e0!3m2!1ses!2spe!4v1746804540152!5m2!1ses!2spe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="address-info">
+                        <h3>Dirección</h3>
+                        <p>Jiron Cusco con avenida tintaya como quien se va al puente cañipia -Espinar</p>
+                        <h3>Horario de Atención</h3>
+                        <p>Lunes a Domingo: 9:30 AM - 10:00 PM</p>
+                        <!-- <h3>Contacto</h3> -->
+                        <!-- <p>Teléfono: +51 943544171</p> -->
+                        <!-- <p>Email: .com</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>©</p> <!-- Año actualizado -->
+            <!-- Puedes añadir enlaces a redes sociales aquí -->
+            <!-- <div class="social-links">
+                <a href="#">Facebook</a> | <a href="#">Instagram</a>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- El código del modal ha sido eliminado -->
+
+    <script src="script.js"></script>
 </body>
+
 </html>
